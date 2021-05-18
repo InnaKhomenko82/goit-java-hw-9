@@ -4,7 +4,7 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class PhoneBook{
-    private static final String PATH = "src\\main\\resources\\file1.txt";
+    private static final String PATH = "src/main/resources/file1.txt";
 
     public static void main(String[] args) {
         File file = new File(PATH);
