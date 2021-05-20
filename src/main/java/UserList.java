@@ -6,8 +6,8 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class UserList {
-    private static final String PATH = "src/main/resources/file2.txt";
-    private static final String DESTINATION = "src/main/resources/user.json";
+    private static final String PATH = "file2.txt";
+    private static final String DESTINATION = "/temp/user.json";
 
     public static void main(String[] args) {
         File file = new File(PATH);
